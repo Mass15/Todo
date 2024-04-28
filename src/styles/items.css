@@ -1,0 +1,25 @@
+.container>ul{
+    list-style-type: none;
+    /* width: 20rem; */
+    margin: 0 auto;
+    
+}
+p{
+    margin: 5rem auto;
+    font-size: 2rem;
+}
+.container>ul>li{
+    
+    width: 16.5rem;
+    margin-top: 2px;
+    
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--light);
+    
+}
+.container>ul>li>input{
+    width: 2rem;
+    accent-color: var(--light);
+}

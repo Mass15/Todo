@@ -1,0 +1,15 @@
+:root{
+  --light:#09eb11;
+  --white:#fbfcfa;
+}
+
+#root{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1200px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: var(--white);
+  
+}
